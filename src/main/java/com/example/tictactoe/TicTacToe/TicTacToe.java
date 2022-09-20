@@ -1,4 +1,4 @@
-package com.example.tictactoe;
+package com.example.tictactoe.TicTacToe;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -14,7 +14,7 @@ import javax.swing.JPanel;
 
 public class TicTacToe implements ActionListener {
 
-    JFrame f = new JFrame("DataFlar's Tic Tac Toe");
+    JFrame f = new JFrame("Belo4ka's Tic Tac Toe");
 
     Label lbl = new Label("");
 
