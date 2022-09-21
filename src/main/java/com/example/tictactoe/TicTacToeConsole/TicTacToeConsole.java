@@ -30,10 +30,10 @@ public class TicTacToeConsole {
                 human.setMarker("o");
                 computer.setMarker("x");
             }else{
-                System.out.println("invalid command ");
+                System.out.println("invalid commad");
             }
 
-            int first = (int) ((Math.random()*(1+1)) + 1);
+            int first = (int) (Math.random() * 2);
             boolean won = false;
             int turns = 0;
             if (first == 0) {
