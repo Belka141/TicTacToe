@@ -47,10 +47,11 @@ public class TicTacToeConsole {
                     if (setBoard.hasWon(setBoard.getBoard())) {
                         won = true;
                         System.out.println("Congrats you won!");
+                        break;
                     }
                     if (turns == 9) {
                         won = true;
-                        System.out.println("Its a bore draw!");
+                        System.out.println("It's a bore draw!");
                         break;
                     }
                     if (!won) {
@@ -62,6 +63,7 @@ public class TicTacToeConsole {
                         if (setBoard.hasWon(setBoard.getBoard())) {
                             won = true;
                             System.out.println("Computer win!");
+                            break;
                         }
                     }
                 }
@@ -75,6 +77,7 @@ public class TicTacToeConsole {
                     if (setBoard.hasWon(setBoard.getBoard())) {
                         won = true;
                         System.out.println("Computer win!");
+                        break;
                     }
                     if (turns == 9) {
                         won = true;
@@ -87,6 +90,7 @@ public class TicTacToeConsole {
                     if (setBoard.hasWon(setBoard.getBoard())) {
                         won = true;
                         System.out.println("Congrats you won!");
+                        break;
                     }
                 }
             }
