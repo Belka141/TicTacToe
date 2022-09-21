@@ -11,13 +11,13 @@ public class Human extends Player {
         while (turn) {
             System.out.println("please enter row 1-3");
             int row = s.nextInt();
-            if (!(row > 0 && row < 3)) {
+            if (!(row > 0 && row <= 3)) {
                 System.out.println("invalid row, try again 1-3");
                 row = s.nextInt();
             }
             System.out.println("please enter col 1-3");
             int col = s.nextInt();
-            if (!(col > 0 && col < 3)) {
+            if (!(col > 0 && col <= 3)) {
                 System.out.println("invalid column, try again ");
                 col = s.nextInt();
             }
