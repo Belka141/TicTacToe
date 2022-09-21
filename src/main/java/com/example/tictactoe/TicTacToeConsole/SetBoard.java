@@ -17,13 +17,10 @@ public class SetBoard {
         }
         if (board[0][0].equals(board[1][1]) && board[1][1].equals(board[2][2]) && (board[0][0].equals("x")) || board[0][0].equals("o")
                 || board[2][0].equals(board[1][1]) && board[1][1].equals(board[0][2]) && (board[2][0].equals("x") || board[2][0].equals("o"))) {
-
             return true;
         }
-
         return false;
     }
-
 
     public void createBoard() {
         for (int i = 0; i < board.length; i++) {
@@ -34,20 +31,15 @@ public class SetBoard {
     }
 
     public void printBoard() {
-
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board.length; j++) {
                 System.out.print("[" + board[i][j] + "]" + " ");
-
             }
             System.out.println();
         }
-
     }
 
     public String[][] getBoard() {
-
         return board;
-
     }
 }

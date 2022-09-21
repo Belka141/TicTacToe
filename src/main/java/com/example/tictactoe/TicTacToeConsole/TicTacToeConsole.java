@@ -3,18 +3,17 @@ package com.example.tictactoe.TicTacToeConsole;
 import java.util.Scanner;
 
 public class TicTacToeConsole {
+
     public static void main(String[] args) {
-
-        System.out.println("Welcome to Tickle Tackle Toe!!!");
-        System.out.println();
-
+        Scanner s = new Scanner(System.in);
+        Human human = new Human();
+        Computer computer = new Computer();
         String marker1 = "x";
         String marker2 = "o";
         boolean playAgain = true;
 
-        Scanner s = new Scanner(System.in);
-        Human human = new Human();
-        Computer computer = new Computer();
+        System.out.println("Welcome to Tickle Tackle Toe!!!");
+        System.out.println();
 
         while (playAgain) {
             SetBoard setBoard = new SetBoard();
