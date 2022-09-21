@@ -21,13 +21,13 @@ public class SetBoard {
     }
 
 
-    int x = 1;
+
 
     public void createBoard(){
         for(int i = 0; i < board.length; i++){
             for(int j = 0; j < board.length; j++){
-                board[i][j] = "" + (x);
-                x++;
+                board[i][j] = "";
+
             }
         }
     }
