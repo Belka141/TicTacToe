@@ -1,4 +1,4 @@
-package com.example.tictactoe.TicTacToeConsole;
+package TicTacToe.TicTacToeConsole;
 
 class Computer extends Player {
 

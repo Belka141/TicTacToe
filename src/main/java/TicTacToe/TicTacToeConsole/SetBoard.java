@@ -1,4 +1,4 @@
-package com.example.tictactoe.TicTacToeConsole;
+package TicTacToe.TicTacToeConsole;
 
 public class SetBoard {
     private int N = 3;
